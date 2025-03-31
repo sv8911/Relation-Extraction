@@ -51,7 +51,7 @@ Due to memory restrictions, please find all the files in the following OneDrive 
 
 Kindly note that the following folder and file structure of our project: https://livemanchesterac-my.sharepoint.com/:f:/g/personal/chirag_tolani_postgrad_manchester_ac_uk/EtJjqPIN0NJLjjbbMs2fYLsBx2JOqpHv15fPu3BEhnVeZA?e=nKdZe0
 
-~ **requirements.txt** - This file contains all the required libraries and functions that need to installed and imported into the notebook files. Installation guide for these libraries are detailed in the Installation section
+~ **requirements.txt** - This file contains all the required libraries and functions that need to installed and imported into the notebook files. Installation guide for these libraries are detailed in the Installation section.
 ~ **bert_embeddings** (mlb.pkl, X_dev.npy, X_test.npy, X_train.npy ) - These are the extracted BERT embeddings that are saved during the pre-processing step for both the models
 ~ **XGB_model_and_embeddings** (optimal_thresholds.npy, xgb_multi.pkl)- This folder contains the model file saved during the training loop (.pkl file) as well as the optimal thresholds utilized to improve the XGBOOST model performance
 **GCN_model_and_embeddings** (GCN_model.pth , optimizer.pth) - This folder contains the model file saved during the training loop (.pkl file) as well as the optimal thresholds utilized to improve the GCN model performance
