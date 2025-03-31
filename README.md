@@ -53,8 +53,8 @@ Kindly note that the following folder and file structure of our project: https:/
 
 ~ **requirements.txt** - This file contains all the required libraries and functions that need to installed and imported into the notebook files. Installation guide for these libraries are detailed in the Installation section
 ~ **bert_embeddings** (mlb.pkl, X_dev.npy, X_test.npy, X_train.npy ) - These are the extracted BERT embeddings that are saved during the pre-processing step for both the models
-~ **XGB_model_and_embeddings** - This folder contains the model file saved during the training loop (.pkl file) as well as the optimal thresholds utilized to improve the XGBOOST model performance
-**GCN_model_and_embeddings** - This folder contains the model file saved during the training loop (.pkl file) as well as the optimal thresholds utilized to improve the GCN model performance
+~ **XGB_model_and_embeddings** (optimal_thresholds.npy, xgb_multi.pkl)- This folder contains the model file saved during the training loop (.pkl file) as well as the optimal thresholds utilized to improve the XGBOOST model performance
+**GCN_model_and_embeddings** (GCN_model.pth , optimizer.pth) - This folder contains the model file saved during the training loop (.pkl file) as well as the optimal thresholds utilized to improve the GCN model performance
 **bert_with_xgboost.ipynb** - This notebook contains the preprocessing of the dataset into BERT embeddings as well as the training code for the XGBoost model
 **bert_with_gcn.ipynb** - This notebook contains the preprocessing of the dataset into BERT embeddings as well as the training code for the GCN model
 **xgboost_inference.ipynb** - This notebook contains the code to perform real time inference on XGBoost model and predict the relations for the provided user input
