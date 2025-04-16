@@ -11,7 +11,7 @@ This project focuses on Relation Extraction, comparing two major approaches: a t
 - [Jupyter](https://jupyter.org/)
 - [PyTorch](https://pytorch.org/)
 
-## Getting Started
+## Getting Started:
 
 To get a local copy up and running, follow these steps:
 
